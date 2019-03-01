@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CorbitBootProcess</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wakeup_with_lost">Wake Up with Lost</string>
+    <string name="look_around_scan">Look Around and Scan</string>
+    <string name="gear_problem">Gear Problem</string>
+    <string name="best_friend">Best Friend</string>
+    <string name="call_me_corbit">Call Me Corbit</string>
+    <string name="choose_wifi">Choose Wi-Fi</string>
+    <string name="eating_data">Eating Data</string>
+    <string name="feel_much_better">Feel Much Better</string>
+    <string name="fixed_head">Fixed Head</string>
+    <string name="input_password">Input Password</string>
+    <string name="need_data">Nedd Data</string>
+    <string name="stomach_rumbling">Stomach Rumbling</string>
+    <string name="touch_head">Touch Head</string>
+    <string name="found_human">Found Human</string>
+    <string name="user_name">User Name</string>
+    <string name="user_gender">User Gender</string>
+</resources>

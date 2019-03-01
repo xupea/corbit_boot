@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/wakeUpAndLostFragment">
+    <fragment
+        android:id="@+id/wakeUpAndLostFragment"
+        android:name="com.makeblock.corbitbootprocess.WakeUpAndLostFragment"
+        android:label="fragment_wake_up_and_lost"
+        tools:layout="@layout/fragment_wake_up_and_lost" >
+        <action
+            android:id="@+id/action_wakeUpAndLostFragment_to_lookAroundAndScanFragment"
+            app:destination="@id/lookAroundAndScanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lookAroundAndScanFragment"
+        android:name="com.makeblock.corbitbootprocess.LookAroundAndScanFragment"
+        android:label="fragment_look_around_and_scan"
+        tools:layout="@layout/fragment_look_around_and_scan" >
+        <action
+            android:id="@+id/action_lookAroundAndScanFragment_to_foundHumanFragment"
+            app:destination="@id/foundHumanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foundHumanFragment"
+        android:name="com.makeblock.corbitbootprocess.FoundHumanFragment"
+        android:label="fragment_found_human"
+        tools:layout="@layout/fragment_found_human" >
+        <action
+            android:id="@+id/action_foundHumanFragment_to_gearProlemFragment"
+            app:destination="@id/gearProlemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gearProlemFragment"
+        android:name="com.makeblock.corbitbootprocess.GearProlemFragment"
+        android:label="fragment_gear_prolem"
+        tools:layout="@layout/fragment_gear_prolem" >
+        <action
+            android:id="@+id/action_gearProlemFragment_to_fixedHeadFragment"
+            app:destination="@id/fixedHeadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fixedHeadFragment"
+        android:name="com.makeblock.corbitbootprocess.FixedHeadFragment"
+        android:label="fragment_fixed_head"
+        tools:layout="@layout/fragment_fixed_head" >
+        <action
+            android:id="@+id/action_fixedHeadFragment_to_callMeCoribtFragment"
+            app:destination="@id/callMeCoribtFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/callMeCoribtFragment"
+        android:name="com.makeblock.corbitbootprocess.CallMeCoribtFragment"
+        android:label="fragment_call_me_coribt"
+        tools:layout="@layout/fragment_call_me_coribt" >
+        <action
+            android:id="@+id/action_callMeCoribtFragment_to_userNameFragment"
+            app:destination="@id/userNameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userNameFragment"
+        android:name="com.makeblock.corbitbootprocess.UserNameFragment"
+        android:label="fragment_user_name"
+        tools:layout="@layout/fragment_user_name" >
+        <action
+            android:id="@+id/action_userNameFragment_to_userGenderFragment"
+            app:destination="@id/userGenderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userGenderFragment"
+        android:name="com.makeblock.corbitbootprocess.UserGenderFragment"
+        android:label="fragment_user_gender"
+        tools:layout="@layout/fragment_user_gender" >
+        <action
+            android:id="@+id/action_userGenderFragment_to_touchHeadFragment"
+            app:destination="@id/touchHeadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/touchHeadFragment"
+        android:name="com.makeblock.corbitbootprocess.TouchHeadFragment"
+        android:label="fragment_touch_head"
+        tools:layout="@layout/fragment_touch_head" >
+        <action
+            android:id="@+id/action_touchHeadFragment_to_bestFriendFragment"
+            app:destination="@id/bestFriendFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bestFriendFragment"
+        android:name="com.makeblock.corbitbootprocess.BestFriendFragment"
+        android:label="fragment_best_friend"
+        tools:layout="@layout/fragment_best_friend" >
+        <action
+            android:id="@+id/action_bestFriendFragment_to_stomachRumblingFragment"
+            app:destination="@id/stomachRumblingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stomachRumblingFragment"
+        android:name="com.makeblock.corbitbootprocess.StomachRumblingFragment"
+        android:label="fragment_stomach_rumbling"
+        tools:layout="@layout/fragment_stomach_rumbling" >
+        <action
+            android:id="@+id/action_stomachRumblingFragment_to_needDataFragment"
+            app:destination="@id/needDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/needDataFragment"
+        android:name="com.makeblock.corbitbootprocess.NeedDataFragment"
+        android:label="fragment_need_data"
+        tools:layout="@layout/fragment_need_data" >
+        <action
+            android:id="@+id/action_needDataFragment_to_chooseWiFiFragment"
+            app:destination="@id/chooseWiFiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseWiFiFragment"
+        android:name="com.makeblock.corbitbootprocess.ChooseWiFiFragment"
+        android:label="fragment_choose_wi_fi"
+        tools:layout="@layout/fragment_choose_wi_fi" >
+        <action
+            android:id="@+id/action_chooseWiFiFragment_to_inputPasswordFragment"
+            app:destination="@id/inputPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputPasswordFragment"
+        android:name="com.makeblock.corbitbootprocess.InputPasswordFragment"
+        android:label="fragment_input_password"
+        tools:layout="@layout/fragment_input_password" >
+        <action
+            android:id="@+id/action_inputPasswordFragment_to_eatingDataFragment"
+            app:destination="@id/eatingDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eatingDataFragment"
+        android:name="com.makeblock.corbitbootprocess.EatingDataFragment"
+        android:label="fragment_eating_data"
+        tools:layout="@layout/fragment_eating_data" >
+        <action
+            android:id="@+id/action_eatingDataFragment_to_feelMuchBetterFragment"
+            app:destination="@id/feelMuchBetterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feelMuchBetterFragment"
+        android:name="com.makeblock.corbitbootprocess.FeelMuchBetterFragment"
+        android:label="fragment_feel_much_better"
+        tools:layout="@layout/fragment_feel_much_better" />
+</navigation>
